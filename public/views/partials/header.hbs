@@ -1,0 +1,36 @@
+<nav class="text-center navbar navbar-expand-lg bg-dark">
+    {{!-- <a class="navbar-brand text-white m-r-3 text-center" href="/about">Navbar</a> --}}
+    <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        {{!-- <span class="navbar-toggler-icon nav-collapse-button"></span> --}}
+        <i class="fa fa-arrow-down fa-1x nav-collapse-button" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white text-center ml-5 mr-5" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ml-5 mr-5" href="/about">State Weather</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ml-5 mr-5" href="/dev">Developer</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white ml-5 mr-5" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Supporters
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-white" href="/arup">Arup</a>
+                        <a class="dropdown-item text-white" href="/aakash">Aakash</a>
+                        {{!-- <a class="dropdown-item text-white" href="#">Something else here</a> --}}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

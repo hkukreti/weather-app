@@ -1,0 +1,51 @@
+/* .website-color{
+    background-color: red !important;
+} */
+.main-template{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.website-heading{
+    margin-bottom: -.5rem !important;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+/* .navbar ul li {
+    width: 340px;
+} */
+
+.body-color{
+    background-color: whitesmoke;
+}
+
+.nav-collapse-button{
+    /*overwriting*/
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.round-img{
+    border-radius: 100px ;
+    height: 200px; 
+}
+
+.dropdown-item:hover {
+    background-color: #0000 !important;
+}
+
+.footer-class{
+    background-color: #343a40;
+    
+}
+
+.ul-undotted {
+    list-style: none;
+    color: white;
+    padding: 0 !important;
+}
+
+.col-md-4,.col-sm-6, .col-xs-12, .li{
+    padding-right: -30px !important;
+}
